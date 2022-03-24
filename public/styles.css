@@ -1,0 +1,36 @@
+h1 {
+    color: indigo;
+}
+
+form span {
+    display: inline-block;
+    min-width: 3em;
+    font-size: 1.5em;
+}
+
+.form-control {
+    font-size: 1.2em;
+}
+
+.form-group {
+    margin-bottom: .5em;
+}
+
+button {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr th {
+    border: 2px solid grey;
+    min-width: 5em;
+}
+
+tr td {
+    border: 2px solid grey;
+    min-width: 5em;
+}

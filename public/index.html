@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Список Героев</h1>
+    <form name="heroesForm">
+        <div class="form-group">
+            <label>
+                <span>Name:</span>
+                <input class="form-control name" name="name">
+            </label>
+        </div>
+        <div class="form-group">
+            <label>
+                <span>Race:</span>
+                <select class="form-control race">
+                    <option selected disabled>Choose the race</option>
+                    <option value="human">human</option>
+                    <option value="goblin">goblin</option>
+                    <option value="elf">elf</option>
+                    <option value="undead">undead</option>
+                </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>
+                <span>Type:</span>
+                <select class="form-control type">
+                    <option selected disabled>Choose the type</option>
+                    <option value="medic">medic</option>
+                    <option value="criminal">criminal</option>
+                    <option value="paladin">paladin</option>
+                    <option value="magician">magician</option>
+                    <option value="priest">priest</option>
+                    <option value="musician">musician</option>
+                    <option value="criminal">criminal</option>
+                </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>
+                <span>Level:</span>
+                <input type="number" min="1" max="100" class="form-control level" name="level">
+            </label>
+        </div>
+        <div class="form-group">
+            <label>
+                <span>Power:</span>
+                <input type="number" min="1" max="100" class="form-control power" name="power">
+            </label>
+        </div>
+
+    </form>
+    <div class="buttons">
+        <button class="resetButton">Reset</button>
+        <button class="editButton">Edit</button>
+        <button class="addButton">Add</button>
+        <button class="deleteButton">Delete</button>
+    </div>
+
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Race</th>
+            <th>Type</th>
+            <th>Level</th>
+            <th>Power</th>
+        </tr>
+    </table>
+
+</body>
+<script src="script.js"></script>
+</html>

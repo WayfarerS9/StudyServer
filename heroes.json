@@ -1,0 +1,12 @@
+[
+    { "id": 1, "name": "Dr Nice", "race": "human", "type": "medic", "level": 90, "power": 60 },
+    { "id": 2, "name": "Narco", "race": "goblin", "type": "criminal", "level": 99, "power": 90 },
+    { "id": 3, "name": "Bombasto", "race": "elf", "type": "paladin", "level": 70, "power": 65 },
+    { "id": 4, "name": "Celeritas", "race": "elf", "type": "magician", "level": 88, "power": 45 },
+    { "id": 5, "name": "Magneta", "race": "elf", "type": "magician", "level": 75, "power": 40 },
+    { "id": 6, "name": "RubberMan", "race": "undead", "type": "priest", "level": 50, "power": 55 },
+    { "id": 7, "name": "Dynama", "race": "human", "type": "magician", "level": 78, "power": 65 },
+    { "id": 8, "name": "Dr IQ", "race": "human", "type": "scientist", "level": 99, "power": 15 },
+    { "id": 9, "name": "Magma", "race": "human", "type": "musician", "level": 90, "power": 25 },
+    { "id": 10, "name": "Tornado", "race": "undead", "type": "criminal", "level": 5, "power": 4 }
+]
